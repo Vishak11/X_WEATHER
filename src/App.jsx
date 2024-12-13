@@ -9,6 +9,7 @@ function App() {
 
   const handleInputChange = (e) => {
     setCity(e.target.value);
+    console.log("test");
   };
 
   const fetchWeatherData = async () => {
